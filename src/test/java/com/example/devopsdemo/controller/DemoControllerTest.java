@@ -21,6 +21,6 @@ public class DemoControllerTest {
         mockMvc.perform(get("/hello"))
                 .andExpect(status().isOk())
                 .andExpect(content().string(
-                        "DevOps demo application is running!"));
+                        "DevOps demo ci/cd is working!"));
     }
 }
